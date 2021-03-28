@@ -32,6 +32,5 @@ new NCDownloadFile(YourActivity.this, link_tải, dường_dẫn_lưu_file) {
         }.start();
 ```
 
-
-
-
+### Author
+NamChivas
