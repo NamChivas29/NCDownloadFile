@@ -13,4 +13,4 @@ allprojects {
 ```
 
 ```
-implementation 'com.github.NamChivas29:NCDownloadFile:1.0.1```
+implementation 'com.github.NamChivas29:NCDownloadFile:1.0.1
