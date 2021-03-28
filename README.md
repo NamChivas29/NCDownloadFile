@@ -3,8 +3,7 @@
 
 ## Gradle dependency
 
-`allprojects {
-		repositories {
+`allprojects {\n\nrepositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
