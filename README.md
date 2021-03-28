@@ -11,7 +11,4 @@
 	}`
 
 
-`dependencies {
-	        implementation 'com.github.NamChivas29:NCDownloadFile:Tag'
-	}`
-  
+`implementation 'com.github.NamChivas29:NCDownloadFile:1.0.1`
