@@ -16,29 +16,20 @@ allprojects {
 implementation 'com.github.NamChivas29:NCDownloadFile:1.0.1
 ```
 
-## How to use
+## Sử dụng
 
-### Example:
+### Ví dụ:
 
 ```
-new NCDownloadFile(MainActivity.this, url, path) {
+new NCDownloadFile(YourActivity.this, link_tải, dường_dẫn_lưu_file) {
             @Override
             protected void onProgress(long percent) {
-                progressDialog.setIndeterminate(false);
-                progressDialog.setProgress((int) percent);
+                /To do...
             }
 
             @Override
-            protected void onFinsh(Boolean isSuccess, String message) {
-
-                progressDialog.dismiss();
-                if (isSuccess){
-                    Toast.makeText(context, "File downloaded", Toast.LENGTH_SHORT).show();
-                    return;
-                }
-
-                Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
-
+            protected void onFinish(Boolean isSuccess, String message) {
+            	//To do...
             }
         }.start();
 
