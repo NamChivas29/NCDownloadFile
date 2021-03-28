@@ -3,14 +3,14 @@
 
 ## Gradle dependency
 
-``allprojects {
+`allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
-	}``
+	}`
   
-  ``dependencies {
+  `dependencies {
 	        implementation 'com.github.NamChivas29:NCDownloadFile:Tag'
-	}``
+	}`
   
